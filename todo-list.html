@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title> Todo List </title>
+        <link rel="stylesheet" href="todo-list.css"> 
+    </head>
+    <body>
+        <div id='todoApp'>
+            <h1 class="center">My Todo List</h1>
+            <div class="center">
+                <input id="todoTextInput" type="text" placeholder="Add a todo" onkeypress="handlers.addTodo(event)"/>
+            </div>
+            <button onclick="handlers.toggleAll()">Toggle All</button>
+            <ul>
+            </ul>
+        </div>
+
+        <script src="todo-list.js"></script>
+    </body>
+</html>

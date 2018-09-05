@@ -1,0 +1,36 @@
+.center{
+    text-align: center;
+}
+
+ul {
+    text-align: justify;
+    list-style-position: inside;
+}
+
+#todoApp{
+    width: 700px;
+    margin: 0 auto; 
+}
+
+.toggleButton{
+    position: static;
+    float: right;
+    background-color: transparent;
+    border:none;
+}
+
+.deleteButton{
+    position: static;
+    float: right;
+    background-color: transparent;
+    border:none;
+    color: red;
+}
+
+.changeButton{
+    position: static;
+    float: right;
+    background-color: transparent;
+    border:none;
+    
+}
